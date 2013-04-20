@@ -1,0 +1,34 @@
+{% include 'template/header.html' %}
+<div class="container">
+	<h3>{{ seat.title }}</h3>
+	<table class="table table-striped" id="seat">
+		<thead></thead>
+		<tbody>
+			<tr>
+				<td>좌석번호</td>
+				<td>{{ seat.id }}</td>
+			</tr>
+			<tr>
+				<td>종류</td>
+				<td>{{ seat.get_type_display }}</td>
+			</tr>
+			<tr>
+				<td>분야</td>
+				<td>{{ seat.tag.title }}</td>
+			</tr>
+			<tr>
+				<td>내용</td>
+				<td>{{ seat.description }}</td>
+			</tr>
+			<tr>
+				<td>가격</td>
+				<td>{{ seat.pay }}</td>
+			</tr>
+			<tr>
+				<td>상태</td>
+				<td>{{ seat.get_status_display }}</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+{% include 'template/footer.html' %}

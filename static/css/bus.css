@@ -1,0 +1,88 @@
+/* Tag */
+
+body
+{
+	background-image: url("/static/img/bg.png");
+	background-repeat: repeat;
+	font-family: "Malgun Gothic", "Helvetica Neue";
+}
+
+img
+{
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+ul
+{
+	list-style: none;
+}
+
+
+
+/* Common */
+
+.gap-10
+{
+	height: 10px;
+}
+
+.gap-20
+{
+	height: 20px;
+}
+
+
+
+/* Header */
+
+#title
+{
+	color: #000000;
+	display: inline-block;
+}
+
+#title:hover
+{
+	color: #555555;
+	text-decoration: none;
+}
+
+#like
+{
+	float: right;
+	top: 19px;
+}
+
+
+
+/* Home */
+
+#filter li
+{
+	cursor: pointer;
+}
+
+.seat
+{
+	cursor: pointer;
+}
+
+.seat:hover
+{
+	color: #777700;
+}
+
+.strip
+{
+	background-color: #F9F9F9;
+}
+
+
+
+/* About */
+
+#seat td:first-child
+{
+	width: 70px;
+	text-align: center;
+}
