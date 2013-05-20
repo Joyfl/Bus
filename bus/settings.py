@@ -1,7 +1,8 @@
 # Django settings for bus project.
 
-DEBUG = True
+DEBUG = False
 TEMPLATE_DEBUG = DEBUG
+ALLOWED_HOSTS = ['bus.joyfl.net', 'testserver']
 
 ADMINS = (
     ('admin', 'cso@joyfl.net'),
