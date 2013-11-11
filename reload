@@ -1,0 +1,1 @@
+/home/bus/venv/bin/uwsgi --reload /tmp/bus.pid

@@ -1,1 +1,1 @@
-/home/bus/bus/bin/uwsgi /home/bus/bus/Bus/bus.ini --enable-threads
+/home/bus/venv/bin/uwsgi /home/bus/Bus/bus.ini --enable-threads
